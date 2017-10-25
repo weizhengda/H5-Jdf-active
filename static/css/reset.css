@@ -1,0 +1,16 @@
+
+/* css document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: MicrosoftYaHei;
+    overflow: hidden;
+}
+
+
+ul,il{
+    list-style: none;
+}

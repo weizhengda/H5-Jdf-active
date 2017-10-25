@@ -1,0 +1,90 @@
+
+/* css document */
+
+
+#header{
+    width: 719px;
+    height: 122px;
+    line-height:122px;
+    background:#000;
+    box-sizing: border-box;
+}
+
+#header h2{
+	width: 154px;
+    margin:0 auto;
+	font-size: 38px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	color: #ffffff;
+}
+
+
+#content-wrap{
+    width:719px;
+    height:1280px;
+    background:url(../image/dabj.jpg) no-repeat;
+}
+
+#content{
+    width:594px;
+    height:auto;
+    margin:0 auto;
+}
+#content .tab{
+    width:594px;
+    height:72px;
+    padding-top:520px;
+    margin:0 auto;
+}
+#content .tab ul{
+    display:flex;
+}
+#content .tab ul li{
+    flex:1;
+    height:72px;
+    line-height:72px;
+    font-size: 24px;
+    text-align: center;
+    color:#d14841;
+	background-color: rgba(255, 239, 216, 1);
+}
+#content .tab ul li:nth-of-type(1){
+    border-radius: 10px 0 0 10px;
+}
+#content .tab ul li:nth-of-type(2){
+    border-radius: 0 10px 10px 0;
+}
+#content .tab ul li:active{
+    background-color: rgba(209, 72, 65, 1)
+}
+
+#content .tab-content{
+    width: 594px;
+    height: 324px;
+    margin:10px 0 15px 0;
+    border-radius: 10px;
+    background:url(../image/bj.jpg) no-repeat center center;
+}
+
+#content .rule{
+    color:#fefcfa;
+}
+
+#content .rule{
+    font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 35px;
+	letter-spacing: 0.7px;
+}
+
+#content .rule p{
+    font-size:18px;
+    line-height:35px;
+}
+#content .rule p span{
+    color:1b1b1f;
+}
